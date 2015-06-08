@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Jam name:</strong>
+  <%= @jam.jam_name %>
+</p>
+
+<p>
+  <strong>Jam description:</strong>
+  <%= @jam.jam_description %>
+</p>
+
+<p>
+  <strong>Jam url:</strong>
+  <%= @jam.jam_url %>
+</p>
+
+<p>
+  <strong>Jam embed:</strong>
+  <%= @jam.jam_embed %>
+</p>
+
+<p>
+  <strong>Jamkey:</strong>
+  <%= @jam.jamkey_id %>
+</p>
+
+<p>
+  <strong>Jamgenre:</strong>
+  <%= @jam.jamgenre_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @jam.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_jam_path(@jam) %> |
+<%= link_to 'Back', jams_path %>

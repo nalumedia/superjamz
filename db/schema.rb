@@ -11,6 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150608045046) do
+
+  create_table "jams", force: true do |t|
+    t.string   "jam_name"
+    t.text     "jam_description"
+    t.string   "jam_url"
+    t.text     "jam_embed"
+    t.integer  "jamkey_id"
+    t.integer  "jamgenre_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

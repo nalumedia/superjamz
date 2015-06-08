@@ -21,7 +21,8 @@
       SuperJamz
 
     </div>
-      <p class="navbar-text navbar-right">Jamz</p>
+    <div>
+      <p class="navbar-text navbar-right"><%= link_to "jams", jams_path %>&nbsp; &nbsp; &nbsp; </p> 
   </div>
 </nav>
 
@@ -29,7 +30,11 @@
 <div class="col-md-12"><%= yield %></div><!-- end md 12 -->
 </div><!-- end row -->
 <div class="row">
-<div class="col-md-12 text-center">footer</div><!-- end md 12 -->
+<div class="col-md-12 text-center">
+<span class="glyphicon glyphicon-flag"></span> Made in Encinitas, CA. 
+          &copy; 2015 Nalu Media, LLC. All Rights Reserved 
+
+</div><!-- end md 12 -->
 </div><!-- end row -->
 
 
